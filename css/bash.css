@@ -1,0 +1,100 @@
+/* universal styles */
+
+/* css reset */
+*,
+*:before,
+*:after {
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+/*global styles */
+.centerme{
+	text-align: center;
+}
+.notcentered {
+	text-align: left;
+	margin-left:40px;
+}
+
+.right{
+	float:right;
+
+}
+.hide {
+	display: none;
+}
+
+/*page styles */
+.home{
+	background: url("img/desk1.jpg") no-repeat;
+	background-size: cover;
+}
+.container {
+	max-width:960px;
+	margin: 0 auto;
+
+
+}
+a:link, a:visited{
+
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: rgba(245,25,43,1);
+	padding:15px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 40px;
+}
+
+.box {
+	background-image: url("img/paper.png");
+	height:1300px;
+}
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+p {
+	width:800px;
+	margin-top:30px;
+	margin-left: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 40px;
+}
+
+.twocollumn{
+	width:15%;
+}
