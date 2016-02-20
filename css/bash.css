@@ -25,17 +25,13 @@
 	margin-left:40px;
 }
 
-.right{
-	float:right;
-
-}
 .hide {
 	display: none;
 }
 
 /*page styles */
 .home{
-	background: url("img/desk1.jpg") no-repeat;
+	background: url("img/bash.jpg") no-repeat fixed;
 	background-size: cover;
 }
 .container {
@@ -44,20 +40,17 @@
 
 
 }
-a:link, a:visited{
+nav a:link, nav a:visited{
 
 	text-decoration: none;
 	color: rgba(255,255,255,1);
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: rgba(245,25,43,1);
 	padding:15px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,1);
-
 
 }
 
-a:hover{
+nav a:hover{
 	text-decoration: underline;
 }
 li{
@@ -65,11 +58,24 @@ li{
 	display: inline-block;
 	margin: 40px;
 }
+.letter {
+  background: url("img/letter.png");
+  width:960px;
+  height:623px;
+}
+
+.letter a, .letter a:visited {
+	text-decoration: none;
+	color:rgba(0,0,0,1);
+
+}
 
 .box {
-	background-image: url("img/paper.png");
-	height:1300px;
+	background:rgba(255,255,255,.4);
 	margin-bottom: 20px;
+}
+.top{
+	margin-top: 70px;
 }
 h2 {
 	font-family: 'Dancing Script', cursive;
@@ -84,24 +90,27 @@ h3 {
 }
 
 p {
-	width:800px;
 	margin-top:30px;
-	margin-left: 50px;
+	text-align: center;
+	margin: 20px;
 	font-family: sans-serif;
 	font-size: 20px;
+
 }
 
 h4 {
 	font-family: 'Pinyon Script', cursive;
 	font-size: 40px;
 }
-
-.twocollumn{
-	width:15%;
+h5 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 50px;
+	padding-top:400px;
 }
 
+
 footer {
-	background: rgba(255,255,255,1);
+	background: rgba(255,255,255,.4);
 	padding:10px;
 	width:900px;
 	margin-left: 42px;

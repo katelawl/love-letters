@@ -35,8 +35,8 @@
 
 /*page styles */
 .home{
-	background: url("img/desk1.jpg") no-repeat;
-	background-size: cover;
+	background: url("img/github.jpg");
+	background-repeat: repeat;
 }
 .container {
 	max-width:960px;
@@ -50,9 +50,9 @@ a:link, a:visited{
 	color: rgba(255,255,255,1);
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: rgba(245,25,43,1);
+	background-color: rgba(117,193,215,.9);
 	padding:15px;
-	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+	border: rgba(13, 123, 154, 1) 1px solid;
 
 
 }
@@ -67,8 +67,7 @@ li{
 }
 
 .box {
-	background-image: url("img/paper.png");
-	height:1300px;
+	background: rgba(255,255,255,.85);
 	margin-bottom: 20px;
 }
 h2 {
@@ -89,6 +88,8 @@ p {
 	margin-left: 50px;
 	font-family: sans-serif;
 	font-size: 20px;
+	text-shadow: #fff 0px 0px 1px, #fff 1px 0px 1px, #fff 0px 1px 1px, #fff 1px 1px 1px, #fff -1px 0px 1px,#fff 0px -1px 1px, #FFF -1px -1px 1px;
+
 }
 
 h4 {
