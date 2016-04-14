@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro|Merriweather|Cardo);
+
+//Fonts
+$pro-font:'Source Serif Pro', serif;
+$merri-font:'Merriweather', serif;
+$cardo-font: 'Cardo', serif;
+
+//Colors
+$dark-purple: rgba(84,57,66,1);
+$light-purple: rgba(214,188,212,1);
+$medium-purple: rgba(159,106,119,1);
+$off-white: rgba(223,216,203,1);
+$white: rgba(255,247,232,1);
+$light-grey: rgba(143,139,138,1);
+$dark-grey: rgba(84,82,81,1);
+$dark-pink: rgba(163,57,88,1);
+$light-pink: rgba(255,150,182,1);
+$very-light-pink: rgba(255,197,213,1);
+$medium-pink: rgba(159,69,92,1);
+
+//font sizes 
+$smallest-text:1.3em;
+$small-text: 1.5em;
+$medium-text: 3.4em;
+$large-text: 4.4em;
+
+$default-box-sizing: border-box;

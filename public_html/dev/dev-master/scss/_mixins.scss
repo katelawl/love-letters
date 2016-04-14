@@ -1,0 +1,49 @@
+@mixin clearfixed(){
+	&:after {
+		display: table;
+		content: " ";
+		clear: both;
+	}
+}
+
+/*.clearfixed {
+	&:before,
+	&:after {
+		display:table;
+		content: " ";
+		clear: both;
+		overflow:hidden;
+	}
+} */
+
+ @mixin home {
+ 	perspective: 1px;
+ 	transform-style: preserve-3d;
+ 	height:100%;
+ 	overflow-y: scroll;
+	overflow-x: auto;
+	overflow-z: hidden;
+ }
+
+@mixin header-box {
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: center center;
+	background-attachment: fixed;
+	height: 900px;
+}
+
+@mixin title-box {
+	background: rgba(0,0,0,.2);
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+
+@mixin my-border{
+	border: solid .1em black;
+}

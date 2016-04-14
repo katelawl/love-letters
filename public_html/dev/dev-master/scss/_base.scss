@@ -1,0 +1,110 @@
+//Global Style
+*,
+*:before,
+*:after {
+	margin:0;
+	padding: 0;
+
+}
+body {
+		font-size: 62.5%;
+		height:100%;
+		@include home;
+}
+
+main {
+	
+	@include container(96em);
+	}
+
+::-moz-selection {
+    background: $very-light-pink;
+    text-shadow: none;
+}
+
+::selection {
+    background: $very-light-pink;
+    text-shadow: none;
+}
+
+//text style
+h1 {
+	font-size: $large-text;
+	font-family: $merri-font;
+	text-align: center;
+	@include title-box;
+}
+h2,h3,h4,h5 {
+	font-size: $medium-text;
+	font-family: cardo-font;
+}
+nav, p {
+	font-size: $small-text;
+	font-family: $pro-font;
+}
+
+//nav 
+nav {
+	float:right;
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+	margin-right: 100px;
+
+	li{
+		display: inline-block;
+
+		a{
+			text-decoration: none;
+		}//a
+		a:link,
+		a:visited {
+			color:black;
+		}//a link visited
+		a:hover,
+		a:active {
+			color: $light-pink;
+		}
+	}
+
+}
+//sections
+
+#title {
+	@include header-box;
+	width: 100%;
+}
+header,
+main,
+nav{
+	padding: 1em;
+	@include clearfixed;
+}
+
+
+.gallery img {
+	text-align: center;
+	margin:30px;
+	@include span(3);
+}
+
+ footer{
+ 	position: absolute;
+ 	@include my-border;
+ 	width:100%;
+ 	bottom: 0em;
+ 	left: 0em;
+ 	p{
+
+ 		font-size: $smallest-text;
+ 	}
+ }
+
+//media
+
+@include susy-breakpoint($medium) {
+}
+
+@include susy-breakpoint($small) {
+
+}
